@@ -1,0 +1,38 @@
+ 1914  pwd
+ 1915  cd Desktop
+ 1916  mkdir 20230605-KarlitaVasquez
+ 1917  cd 20230605-KarlitaVasquez
+ 1918  git init
+ 1919  git remote add origin 
+git@github.com:karlavasquez8/20230605-KarlitaVasquez
+ 1920  touch comando.txt main.js index.html
+ 1921  git status
+ 1922  git add .
+ 1923  git commit -m "commit 01 de KarlitaVasquez"
+ 1924  git push origin main
+ 1925  git branch -b feature
+ 1926  git branch
+ 1927  git branch feature
+ 1928  git checkout feature
+ 1929  mkdir Hardware Software SeguridadInformatica
+ 1930  cd Hardware 
+ 1931  touch resumen.txt
+ 1932  ../
+ 1933  cd Software
+ 1934  touch resumen.txt
+ 1935  ../
+ 1936  cd SeguridadInformatica 
+ 1937  touch resumen.txt
+ 1938  ../
+ 1939  git status
+ 1940  git add .
+ 1941  git commit -m "commit 02 de KarlitaVasquez"
+ 1942  git push origin feature
+ 1943  git checkout main
+ 1944  mv main.js resumenHardware.txt\n
+ 1945  mv index.html resumenSoftware.txt\n
+ 1946  nano resumenSoftware.txt\n
+ 1947  nano resumenHardware.txt\n
+ 1948  cd comandos.txt
+ 1949  ls
+ 1950  cd comando.txt
